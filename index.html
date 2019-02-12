@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src="jquery.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="style.css">
+
+  <div id="script">
+
+    <script type="text/javascript">
+    $(function() {
+      $("#message1").on("mouseenter", function() {
+        let x = Math.round(Math.random() * 20)
+        let y = Math.round(Math.random() * 30)
+        $("#message1").css({
+        "top": y + "vw",
+        "left": x + "vw"
+        })
+      })
+    })
+
+    $(function() {
+      $("#message2").on("mouseenter", function() {
+        let x = Math.round(Math.random() * 40)
+        let y = Math.round(Math.random() * 20)
+        $("#message2").css({
+        "top": y + "vw",
+        "left": x + "vw"
+        })
+      })
+    })
+    $(function() {
+      $("#message3").on("mouseenter", function() {
+        let x = Math.round(Math.random() * 30)
+        let y = Math.round(Math.random() * 30)
+        $("#message3").css({
+        "top": y + "vw",
+        "left": x + "vw"
+        })
+      })
+    })
+    $(function() {
+      $("#message4").on("mouseenter", function() {
+        let x = Math.round(Math.random() * 20)
+        let y = Math.round(Math.random() * 10)
+        $("#message4").css({
+        "top": y + "vw",
+        "left": x + "vw"
+        })
+      })
+    })
+    $(function() {
+      $("#message5").on("mouseenter", function() {
+        let x = Math.round(Math.random() * 20)
+        let y = Math.round(Math.random() * 20)
+        $("#message5").css({
+        "top": y + "vw",
+        "left": x + "vw"
+        })
+      })
+    })
+    $(function() {
+      $("#message6").on("mouseenter", function() {
+        let x = Math.round(Math.random() * 50)
+        let y = Math.round(Math.random() * 60)
+        $("#message6").css({
+        "top": y + "vw",
+        "left": x + "vw"
+        })
+      })
+    })
+    $(function() {
+      $("#message7").on("mouseenter", function() {
+        let x = Math.round(Math.random() * 40)
+        let y = Math.round(Math.random() * 30)
+        $("#message7").css({
+        "top": y + "vw",
+        "left": x + "vw"
+        })
+      })
+    })
+    $(function() {
+      $("#message8").on("mouseenter", function() {
+        let x = Math.round(Math.random() * 20)
+        let y = Math.round(Math.random() * 30)
+        $("#message8").css({
+        "top": y + "vw",
+        "left": x + "vw"
+        })
+      })
+    })
+    $(function() {
+      $("#message9").on("mouseenter", function() {
+        let x = Math.round(Math.random() * 40)
+        let y = Math.round(Math.random() * 40)
+        $("#message9").css({
+        "top": y + "vw",
+        "left": x + "vw"
+        })
+      })
+    })
+    $(function() {
+      $("#message10").on("mouseenter", function() {
+        let x = Math.round(Math.random() * 30)
+        let y = Math.round(Math.random() * 30)
+        $("#message10").css({
+        "top": y + "vw",
+        "left": x + "vw"
+        })
+      })
+    })
+    </script>
+  </div>
+
+  </head>
+  <body>
+
+    <img class="background" src="img/background.png" alt="background">
+
+    <section>
+      <div id="message">
+        <p>Messages</p>
+        <div id="messages">
+          <div class="hover" id="message1"><span>hello</span></div>
+          <div class="hover" id="message2"><span>привет</span></div>
+          <div class="hover" id="message3"><span>konnichiwa</span></div>
+          <div class="hover" id="message4"><span>hola</span></div>
+          <div class="hover" id="message5"><span>hallo</span></div>
+          <div class="hover" id="message6"><span>ciao</span></div>
+          <div class="hover" id="message7"><span>привiт</span></div>
+          <div class="hover" id="message8"><span>nihao</span></div>
+          <div class="hover" id="message9"><span>ahoj</span></div>
+          <div class="hover" id="message10"><span>hello</span></div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

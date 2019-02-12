@@ -1,0 +1,128 @@
+body {
+  width: 100%;
+  height: 600px;
+  background-color: white;
+}
+.background {
+  position: absolute;
+  width: 80vw;
+  height: auto;
+  margin: 10vw;
+}
+
+
+span {
+ color: white;
+
+ font-family: 'Rubik', sans-serif;
+  font-size: 4vw;
+}
+
+
+p {
+  position: absolute;
+  text-align: center;
+  font-size: 5vw;
+  margin-top: -30vh;
+  margin-left: 40vw;
+
+}
+.hover {
+    opacity: 0.5;
+  }
+
+  .hover:hover {
+    opacity: 1;
+  }
+
+#message1:hover {
+  background-image: url(img/english.png);
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 150px;
+}
+
+#message2:hover {
+  background-image: url(img/russian.png);
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 150px;
+}
+
+#message3:hover {
+  background-image: url(img/japanese.png);
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 150px;
+}
+
+#message4:hover {
+  background-image: url(img/spanish.png);
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 150px;
+}
+
+#message5:hover {
+  background-image: url(img/german.png);
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 150px;
+}
+
+#message6:hover {
+  background-image: url(img/italian.png);
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 150px;
+}
+
+#message7:hover {
+  background-image: url(img/ukranian.png);
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 150px;
+}
+
+#message8:hover {
+  background-image: url(img/chineese.png);
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 150px;
+}
+
+#message9:hover {
+  background-image: url(img/slovak.png);
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 150px;
+}
+
+#message10:hover {
+  background-image: url(img/american.png);
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 150px;
+}
+
+#message1, #message2, #message3, #message4, #message5, #message6, #message7, #message8, #message9, #message10 {
+  position: absolute;
+
+  display: flex;
+
+  font-family: 'Kosugi Maru', sans-serif;
+  font-size: 15px;;
+
+  justify-content: center;
+  align-items: center;
+
+  background-image: url(img/image.png);
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 150px;
+}
+
+div {
+  -webkit-transition: all 800ms;
+  transition:         all 800ms ;
+}

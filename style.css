@@ -134,7 +134,7 @@ div {
 @media (min-width: 320px) {
   #messages {
     margin-top: 6vh;
-    height: 24vh;
+    height: 20vh;
   }
 }
 @media (min-width: 768px) {
